@@ -1,0 +1,3 @@
+a = int(input("enter the number "))
+sqr =int(a**(0.5))
+print("square root is :", sqr)
