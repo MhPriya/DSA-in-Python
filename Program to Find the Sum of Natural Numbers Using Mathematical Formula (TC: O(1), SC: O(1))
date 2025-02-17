@@ -1,0 +1,4 @@
+def SumNatural(n):
+   return n*(n+1)//2
+n = int(input("enter the num to calculte the sum of  natural number: "))
+print(SumNatural(n))
