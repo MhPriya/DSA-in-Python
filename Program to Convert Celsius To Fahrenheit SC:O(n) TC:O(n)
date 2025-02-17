@@ -1,0 +1,4 @@
+cel= int(input("enter the lower limit:"))
+act_farhanet = (cel*1.8)+32
+"""act_cel=(cel*(9/5))+32"""
+print(cel,"is equal to",act_farhanet,"farhanet")
