@@ -1,0 +1,4 @@
+Miles = 0.621371
+kilo = float(input("enter the kilometer: "))
+conversion = kilo * Miles
+print("kilometer to meter: ", conversion)
