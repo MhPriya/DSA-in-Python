@@ -1,0 +1,8 @@
+def SumNatural(n):
+    if n <=0:
+        return n 
+    else:
+        return n +SumNatural(n-1)
+    
+n = int(input("enter the num to calculte the sum of  natural number: "))
+print(SumNatural(n))
