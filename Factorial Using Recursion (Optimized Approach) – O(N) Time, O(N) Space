@@ -1,0 +1,10 @@
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input("Enter the number: "))
+if num < 0:
+    print("Factorial of a negative number doesn't exist")
+else:
+    print("Factorial of given number is:", factorial(num))
