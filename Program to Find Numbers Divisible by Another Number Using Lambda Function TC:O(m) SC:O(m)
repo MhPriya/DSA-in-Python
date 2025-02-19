@@ -1,0 +1,4 @@
+l = [5,12,15,16,48,75,36]
+n = int(input("the number divisible by n: "))
+result = list(filter(lambda x: x % n == 0, l))
+print(result)
