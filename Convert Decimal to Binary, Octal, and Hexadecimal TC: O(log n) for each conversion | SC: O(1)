@@ -1,0 +1,4 @@
+n = int(input(" enter the  decimal number: "))
+print("Binary of",n, "is",bin(n))
+print("Hexagonal of",n, "is",hex(n))
+print("Octal of",n, "is",oct(n))
