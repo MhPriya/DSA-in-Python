@@ -1,0 +1,4 @@
+x = int(input("Enter the number: "))
+print(f"Multiples of {x} between 1 and 10:")
+for i in range(x, 11, x):
+    print(i)
