@@ -1,0 +1,2 @@
+char = str(input(" enter the  decimal number: "))
+print("ASCII value of",char, "is",ord(char))
