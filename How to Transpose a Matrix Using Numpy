@@ -1,0 +1,6 @@
+import numpy as np
+A = np.array([[2,5,6],
+    [8,3,2]])
+
+T = A.T
+print(T)
