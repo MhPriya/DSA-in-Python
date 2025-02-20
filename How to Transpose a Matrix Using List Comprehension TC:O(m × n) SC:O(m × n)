@@ -1,0 +1,7 @@
+A =[[2,5,6],
+    [8,3,2]]
+
+T = [[A[j][i] for j in range(len(A))] for i in range(len(A[0]))]
+
+for r in T:
+    print(r)
