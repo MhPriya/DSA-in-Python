@@ -1,0 +1,4 @@
+s = input("enter anything we will remove punctuations: ")
+pun='''{}[]()!@#$%^&*()_+-=:";'<>,.?/ '''
+new_str=''.join([i for i in s if i not in pun])
+print(new_str)
