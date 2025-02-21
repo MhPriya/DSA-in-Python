@@ -1,0 +1,15 @@
+def is_palindrome(s):
+    left, right = 0, len(s)-1
+    while left < right:
+        if s[left] != s[right]:
+            return False
+        
+        left += 1 
+        right -= 1 
+    return True
+    
+s=input("Enter any word to check palindrome: ")
+if is_palindrome(s):
+    print(s,"Is a palindrome")
+else:
+    print(s,"Is not a palindrome")
