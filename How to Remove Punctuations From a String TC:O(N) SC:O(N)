@@ -1,0 +1,7 @@
+s = input("enter anything we will remove punctuations: ")
+pun='''{}[]()!@#$%^&*()_+-=:";'<>,.?/ '''
+new_str=""
+for i in s:
+    if i not in pun:
+        new_str += i
+print(new_str)
