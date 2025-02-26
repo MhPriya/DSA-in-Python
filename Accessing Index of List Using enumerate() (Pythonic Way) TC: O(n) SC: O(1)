@@ -1,0 +1,5 @@
+lst = ['tanu', 'divya', 66, 88]
+#for index, value in enumerate(lst):
+#custome index
+for index, value in enumerate(lst, start = 1):
+  print(index, value )
