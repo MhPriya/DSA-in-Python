@@ -1,0 +1,3 @@
+lst =[]
+if not bool(lst):
+  print("Empty List!")
