@@ -1,0 +1,6 @@
+lst =[]
+try:
+  first_ele = lst[0]
+  print(first_ele)
+except:
+  print("Empty List!!!")
