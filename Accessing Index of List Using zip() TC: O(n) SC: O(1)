@@ -1,0 +1,3 @@
+lst = ['tanu', 'divya', 66, 88]
+for index, value in zip(range(len(lst)), lst):
+    print(index, value)
