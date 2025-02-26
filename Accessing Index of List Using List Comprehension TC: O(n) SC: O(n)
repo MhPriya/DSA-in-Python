@@ -1,0 +1,3 @@
+lst = ['tanu', 'divya', 66, 88]
+indexes =  [i for i in range(len(lst))]
+print(indexes)
