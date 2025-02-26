@@ -1,0 +1,5 @@
+def sort_words(sentence):
+    return " ".join(sorted(sentence.split(), key=str.lower))
+
+sentence = input("enter something here: ")
+print(sort_words(sentence))
